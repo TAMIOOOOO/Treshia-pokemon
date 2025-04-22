@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url(fonts/Pokemon\ Solid.ttf) format(truetype);
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(123, 171, 88);
+    padding: 3px;
+    align-items: center;
+}
+
+.header img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    transform: rotate(240deg);
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Pokemon';
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 5px;
+}

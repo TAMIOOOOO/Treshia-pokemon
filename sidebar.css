@@ -1,0 +1,11 @@
+.pokemon-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 5px;
+}
+
+.pokemone-sidebar-names-container {
+    background-color: tomato;
+    color: white;
+}
