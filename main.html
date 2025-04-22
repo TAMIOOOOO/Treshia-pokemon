@@ -6,8 +6,8 @@
     <title></title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="header.css" />
-    <link rel="stylesheet" href="sidebar.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/main.css" />
   </head>
   <body>
     <div class="header">
@@ -15,17 +15,35 @@
       <a href="main.html">TROKEMON</a>
     </div>
 
-    <div class="pokemon-sidebar-container">
-      <div class="pokemon-sidebar-names-container">
-        <div class="pokemon-sidebar-image-container">
-          <img class="pokemonImage" src="images/1.jpg" alt="" />
-        </div>
+    <div class="main">
+      <div class="main-grid">
+        <div class="pokemon-sidebar-container">
+          <div class="pokemon-sidebar-names-container">
+            <div class="pokemon-sidebar-image-container">
+              <img class="pokemonImage" src="images/1.jpg" alt="" />
+            </div>
 
-        <div class="pokemon-sidebar-name">Pokemon Uno</div>
+            <div class="pokemon-sidebar-name">Pokemon Uno</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pokemon-card-section">
+        <div class="pokemon-card-container">
+            <div class="pokemon-card-inner">
+                <div class="pokemon-card-front"><img src="images/luffy.jpg" alt=""></div>
+                <div class="pokemon-card-back">
+                    <img class="card-profile-image" src="images/luffy.jpg" alt="">
+                    <div class="card-profile-name">Name</div>
+                    <div class="card-profile-baliwRating">rating</div>
+                </div>
+            </div>
+        </div>
       </div>
     </div>
+
     <script src="data/pokeNames.js"></script>
-    <script src=".js" async defer></script>
+    <script src="scripts/output.js" async defer></script>
   </body>
 </html>
 

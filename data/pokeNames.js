@@ -1,33 +1,53 @@
 const pokeNames = [{
-    name: 'Uno',
-    image: 'images/1.png',
+    name: 'Pokemon Uno',
+    image: 'images/1.jpg',
     baliwRating: '3 stars'
 }, {
-    name: 'Dos',
-    image: 'images/1.png',
+    name: 'Pokemon Dos',
+    image: 'images/2.jpg',
     baliwRating: '3 stars'
 }, {
-    name: 'Tres',
-    image: 'images/1.png',
+    name: 'Pokemon Tres',
+    image: 'images/3.jpg',
     baliwRating: '3 stars'
 }, {
-    name: 'Quatro',
-    image: 'images/1.png',
+    name: 'Pokemon Quatro',
+    image: 'images/4.jpeg',
     baliwRating: '3 stars'
 }, {
-    name: 'Singko',
-    image: 'images/1.png',
+    name: 'Pokemon Singko',
+    image: 'images/5.jpeg',
     baliwRating: '3 stars'
 }, {
-    name: 'Sais',
-    image: 'images/1.png',
+    name: 'Pokemon Sais',
+    image: 'images/6.jpeg',
     baliwRating: '3 stars'
 }, {
-    name: 'Syete',
-    image: 'images/1.png',
+    name: 'Pokemon Syete',
+    image: 'images/7.jpeg',
     baliwRating: '3 stars'
 }, {
-    name: 'Otso',
-    image: 'images/1.png',
+    name: 'Pokemon Otso',
+    image: 'images/8.jpeg',
     baliwRating: '3 stars'
-}]
+}, {
+    name: 'Pokemon Nuebe',
+    image: 'images/4.jpeg',
+    baliwRating: '3 stars'
+}, {
+    name: 'Pokemon Dyis',
+    image: 'images/5.jpeg',
+    baliwRating: '3 stars'
+}, {
+    name: 'Pokemon Onse',
+    image: 'images/6.jpeg',
+    baliwRating: '3 stars'
+}, {
+    name: 'Pokemon Dose',
+    image: 'images/7.jpeg',
+    baliwRating: '3 stars'
+}, {
+    name: 'Pokemon sTrese',
+    image: 'images/8.jpeg',
+    baliwRating: '3 stars'
+}];

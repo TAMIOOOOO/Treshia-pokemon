@@ -1,11 +1,12 @@
 @font-face {
     font-family: 'Pokemon';
-    src: url(fonts/Pokemon\ Solid.ttf) format(truetype);
+    src: url('fonts/solid.ttf') format('truetype');
 }
 
 body {
     padding: 0px;
     margin: 0px;
+    overflow-y: hidden;
 }
 
 .header {
