@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Pokemon';
+    src: url(fonts/Pokemon\ Solid.ttf) ;
+}
+
 .pokemon-sidebar-container {
     display: flex;
     flex-direction: row;
@@ -5,13 +10,29 @@
     height: 5px;
     width: 250px;
     height: 100%;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 
 .pokemon-sidebar-names-container {
     background-color: tomato;
     color: white;
-    padding: 0px 10px;
     width: 100%;
     border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Pokemon';
 }
+
+.pokemonImage {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
