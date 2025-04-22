@@ -4,10 +4,14 @@
     background-color: rgb(237, 161, 161);
     height: 5px;
     width: 250px;
+    height: 100%;
+    padding: 5px 10px;
 }
 
-.pokemone-sidebar-names-container ul li{
+.pokemon-sidebar-names-container {
     background-color: tomato;
     color: white;
-    height: 100vh;
+    padding: 0px 10px;
+    width: 100%;
+    border-radius: 15px;
 }
