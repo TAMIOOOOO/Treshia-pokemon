@@ -95,8 +95,7 @@ body {
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
-
+  padding: 100px;
 }
 
 .card-container {
@@ -104,12 +103,14 @@ body {
   height: 400px;
   perspective: 1000px;
 } 
+
 .card-inner {
   position: relative;
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: transform 0.8s;
+
 }
 
 .card-container:hover .card-inner {
@@ -121,6 +122,12 @@ body {
   height: 100%;
   width: 100%;
   backface-visibility: hidden;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.card-back img {
+  border-radius: 20px;
 }
 
 .card-front img {
@@ -131,13 +138,14 @@ body {
 .back-image {
   width: 100%;
   height: 30%;
-  margin-bottom: 90px;
+  margin-bottom: 120px;
 }
 
 .card-back {
-  background-color: yellowgreen;
+  background-color: rgb(227, 227, 72);
   transform: rotateY(180deg);
   padding: 10px;
+  color: black;
 }
 
 .names-baliwRating  {
