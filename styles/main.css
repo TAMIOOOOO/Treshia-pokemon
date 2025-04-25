@@ -3,13 +3,28 @@
   src: url("../fonts/Pokemon Solid.ttf") format("truetype");
 }
 
+@font-face {
+  font-family: "Pokemon_Hollow";
+  src: url("../fonts/Pokemon Hollow.ttf") format("truetype");
+}
+@keyframes flipCard {
+  from {
+    transform: rotateY(0);
+  }
+  to {
+    transform: rotateY(180deg); 
+  }
+}
+
+
 * {
   padding: 0px;
   margin: 0px;
-  overflow-y: hidden;
-  font-family: "Pokemon", sans-serif;
 }
-
+body {
+  overflow-y: hidden;
+  
+}
 .header {
   display: flex;
   background-color: rgb(123, 171, 88);
@@ -40,6 +55,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   height: 100vh;
+  overflow-y: hidden;
 }
 .side-bar-container {
   display: flex;
@@ -49,6 +65,7 @@
   justify-content: center;
   padding: 5px;
   width: 300px;
+  font-family: 'Pokemon';
 }
 .side-bar-container button {
   height: 50px;
@@ -61,6 +78,8 @@
   align-items: center;
   display: flex;
   margin-bottom: 5px;
+  font-family: 'Pokemon';
+
 }
 .contents {
   width: 90%;
@@ -84,20 +103,17 @@
   width: 300px;
   height: 400px;
   perspective: 1000px;
-  background-color: transparent;
 } 
 .card-inner {
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: #ffff00;
-  display: flex;
-  transition: transform 0.8s;
   transform-style: preserve-3d;
+  transition: transform 0.8s;
 }
 
-.card-container:hover {
-  transform: rotateY(180deg);
+.card-container:hover .card-inner {
+  animation: flipCard 0.8s forwards;
 }
 
 .card-front, .card-back {
@@ -107,11 +123,24 @@
   backface-visibility: hidden;
 }
 
-.card-front {
-  background-color: black;
+.card-front img {
+  width: 100%;
+  height: 100%;
+}
+
+.back-image {
+  width: 100%;
+  height: 30%;
+  margin-bottom: 90px;
 }
 
 .card-back {
   background-color: yellowgreen;
   transform: rotateY(180deg);
+  padding: 10px;
+}
+
+.names-baliwRating  {
+  font-family: 'Pokemon';
+  letter-spacing: 2px;
 }
